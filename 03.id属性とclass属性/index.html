@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
+
+//classはback_blue,back_brown,back_green,back_grey,white,yellow,red,blue,font16
+//idはfont12のみ
+
 <body>
   <h1>CSSハンズオン</h1>
   <h3>Part3</h3>
-  <p>背景色は青色、文字色は白色ですよ</p>
-  <p>背景色は青色、文字色は白色ですよ</p>
-  <p>背景色は青色、文字色は白色ですよ</p>
-  <p>背景色は青色、文字色は黄色ですよ</p>
-  <p>背景色は青色、文字色は赤色ですよ</p>
-  <p>背景色は青色、文字色は黄色ですよ</p>
+  <p class="back_blue white">背景色は青色、文字色は白色ですよ</p>
+  <p class="back_blue white">背景色は青色、文字色は白色ですよ</p>
+  <p class="back_blue white">背景色は青色、文字色は白色ですよ</p>
+  <p class="back_blue yellow">背景色は青色、文字色は黄色ですよ</p>
+  <p class="back_blue red">背景色は青色、文字色は赤色ですよ</p>
+  <p class="back_blue yellow">背景色は青色、文字色は黄色ですよ</p>
   <ul>
-    <li>文字色は黄色、背景色は灰色、文字サイズは16px</li>
-    <li>文字色は青色、背景色は灰色、文字サイズは16px</li>
-    <li>文字色は赤色、背景色は緑色、文字サイズは16px</li>
-    <li>文字色は青色、背景色は緑色、文字サイズは16px</li>
-    <li>文字色は黄色、背景色は茶色、文字サイズは16px</li>
-    <li>文字色は赤色、背景色は茶色、文字サイズは12px</li>
+    <li class="yellow back_grey font16">文字色は黄色、背景色は灰色、文字サイズは16px</li>
+    <li class="blue back_grey font16">文字色は青色、背景色は灰色、文字サイズは16px</li>
+    <li class="red back_green font16">文字色は赤色、背景色は緑色、文字サイズは16px</li>
+    <li class="blue back_green font16">文字色は青色、背景色は緑色、文字サイズは16px</li>
+    <li class="yellow back_brown font16">文字色は黄色、背景色は茶色、文字サイズは16px</li>
+    <li class="red back_brown" id="font12">文字色は赤色、背景色は茶色、文字サイズは12px</li>
   </ul>
 </body>
+
 </html>
